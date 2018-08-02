@@ -1,0 +1,19 @@
+/**
+ * created on 2018年3月1日 下午2:49:42
+ */
+package rabbit;
+
+/**
+ * @author BenQ
+ * @date 2018年3月1日
+ *
+ */
+public class Receiver {
+	
+	private final static String Queue_name = "MyQueue";
+	
+	public static void main(String[] args) {
+		receive();
+	}
+
+}

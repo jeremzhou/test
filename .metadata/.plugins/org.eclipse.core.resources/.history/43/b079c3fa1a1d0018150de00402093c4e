@@ -1,0 +1,13 @@
+/**
+ * created on 2018年3月1日 下午2:35:48
+ */
+package rabbit;
+
+/**
+ * @author BenQ
+ * @date 2018年3月1日
+ *
+ */
+public class Sender {
+
+}

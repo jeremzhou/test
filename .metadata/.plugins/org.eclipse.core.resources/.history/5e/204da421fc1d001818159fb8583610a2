@@ -1,0 +1,13 @@
+/**
+ * created on 2018年3月2日 下午5:26:29
+ */
+package redis.redis;
+
+/**
+ * @author BenQ
+ * @date 2018年3月2日
+ *
+ */
+public class Data {
+
+}

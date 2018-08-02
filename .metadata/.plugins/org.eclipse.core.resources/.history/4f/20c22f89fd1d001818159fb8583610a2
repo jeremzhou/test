@@ -1,0 +1,25 @@
+/**
+ * created on 2018年3月2日 下午5:24:14
+ */
+package redis.redis;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author BenQ
+ * @date 2018年3月2日
+ *
+ */
+public class Test {
+	public static void getUserNameList() {
+		List<PersonModel> data = Data.getData();
+		
+		List<String> list = new ArrayList<String>();
+		for(PersonModel person: data) {
+			list.add(person.getName());
+		}
+	} 
+	
+	
+}

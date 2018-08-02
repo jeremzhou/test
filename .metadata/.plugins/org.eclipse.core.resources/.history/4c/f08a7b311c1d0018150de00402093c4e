@@ -1,0 +1,31 @@
+/**
+ * created on 2018年3月1日 下午2:35:48
+ */
+package rabbit;
+
+/**
+ * @author BenQ
+ * @date 2018年3月1日
+ *
+ */
+public class Sender {
+	private final static String Queue_name = "MyQueue";
+	
+	public static void main(String[] args) {
+		send();	
+	}
+	public static  void send() {
+		ConnectionFactory  factory = null;
+		Connection connection = null;  
+	    Channel channel = null;
+	    try {
+	    	factory = new ConnectionFactory();
+	    	factory.setHost("localhost");
+	    	connection = factory.newConnection();
+	    	channel = connection.createChannel();
+	    	channel.queueDeclare(Queue_name, false, false, false, null);
+	    	String message = "my first message ....";
+	    	channel.basicPublish("", Queue_name, null, message.getBytes("UTF-8"));
+	    }
+	}
+}

@@ -1,0 +1,20 @@
+/**
+ * created on 2018年3月1日 下午4:23:07
+ */
+package RabbitMq.rabbitmq;
+
+import java.io.IOException;
+
+import com.rabbitmq.client.ShutdownSignalException;
+
+/**
+ * @author BenQ
+ * @date 2018年3月1日
+ *
+ */
+public class Test2 {
+	public static void main(String[] args)throws IOException,ShutdownSignalException
+	ConsumerCancelledException, InterrupException {
+		
+	}
+}

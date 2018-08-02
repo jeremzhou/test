@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1512977710274_1" label="apollo" name="apollo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-buildtools" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-configservice" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-portal" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-assembly" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-adminservice" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-biz" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/apollo-common" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1509416625314_0" label="Window Working Set" name="Aggregate for window 1509416625313"/>
+</workingSetManager>
